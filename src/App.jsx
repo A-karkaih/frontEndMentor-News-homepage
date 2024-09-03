@@ -4,7 +4,7 @@ const App = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="w-[90%] md:w-[80%] h-[90vh] mx-auto mt-10">
+    <div className="w-[90%] md:w-[80%] h-[90vh] mx-auto mt-10 mb-10">
       <nav className="flex justify-between items-center h-[10%]">
         <h1 className="text-3xl md:text-4xl text-black font-black">W.</h1>
         <div className="hidden md:flex gap-4 lg:gap-9 text-slate-500">
@@ -164,6 +164,7 @@ const App = () => {
           </div>
         </div>
       </div>
+      <div className="h-6 w-full"></div>
     </div>
   );
 };
